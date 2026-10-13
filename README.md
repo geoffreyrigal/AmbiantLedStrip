@@ -13,17 +13,6 @@ Système d'éclairage d'ambiance dynamique (type Ambilight) pour écran d'ordina
   - [1. Prérequis système](#1-prérequis-système)
   - [2. Installation des dépendances](#2-installation-des-dépendances)
 - [Comment lancer le programme](#comment-lancer-le-programme)
-- [Problèmes potentiels et bogues identifiés](#problèmes-potentiels-et-bogues-identifiés)
-  - [1. Crash au lancement sans arguments (IndexError)](#1-crash-au-lancement-sans-arguments-indexerror)
-  - [2. Erreur de condition dans la validation des arguments (verif_args)](#2-erreur-de-condition-dans-la-validation-des-arguments-verif_args)
-  - [3. Port non valide ou non numérique (ValueError)](#3-port-non-valide-ou-non-numérique-valueerror)
-  - [4. Dépassement de la résolution d'écran (IndexError: out of bounds)](#4-dépassement-de-la-résolution-décran-indexerror-out-of-bounds)
-  - [5. Portée de la variable socket et fermeture du flux](#5-portée-de-la-variable-socket-et-fermeture-du-flux)
-  - [6. Incompatibilité sous Linux avec Wayland](#6-incompatibilité-sous-linux-avec-wayland)
-  - [7. Calcul de la couleur dominante au pixel près](#7-calcul-de-la-couleur-dominante-au-pixel-près)
-  - [8. Absence de gestion des déconnexions réseau](#8-absence-de-gestion-des-déconnexions-réseau)
-- [Pistes d'amélioration et code optimisé](#pistes-damélioration-et-code-optimisé)
-- [Exemple de récepteur (Côté microcontrôleur)](#exemple-de-récepteur-côté-microcontrôleur)
 
 ---
 
